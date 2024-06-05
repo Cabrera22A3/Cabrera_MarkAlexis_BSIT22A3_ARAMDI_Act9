@@ -44,6 +44,17 @@ class MainActivity : ComponentActivity() {
     }
 }
 
+@Preview
+@Composable
+fun PreviewNow() {
+    MarsPhotosTheme {
+        Surface(
+            modifier = Modifier.fillMaxSize(),
+        ) {
+            MarsPhotosApp()
+        }
+    }
+}
 
 
 
